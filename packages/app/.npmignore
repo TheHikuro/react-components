@@ -1,0 +1,8 @@
+src/
+node_modules/
+.npmignore
+tsconfig.json
+
+*/**/*.demo.js
+*/**/*.demo.js.map
+*/**/*.demo.d.ts

@@ -1,0 +1,25 @@
+{
+    "name": "storybook",
+    "version": "0.0.1",
+    "description": "",
+    "scripts": {
+        "start": "start-storybook -p 6006",
+        "build": "build-storybook"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.19.3",
+        "@storybook/addon-actions": "^7.0.9",
+        "@storybook/addon-essentials": "^7.0.9",
+        "@storybook/addon-interactions": "^7.0.9",
+        "@storybook/addon-links": "^7.0.9",
+        "@storybook/builder-webpack5": "^7.0.9",
+        "@storybook/manager-webpack5": "^6.5.16",
+        "@storybook/react": "^7.0.9",
+        "@storybook/testing-library": "^0.1.0",
+        "babel-loader": "^9.1.2",
+        "ts-node": "^10.9.1"
+    },
+    "dependencies": {
+        "@hikuro": "^0.0.0"
+    }
+}
