@@ -6,13 +6,13 @@ export default defineConfig({
 
     build: {
         lib: {
-            entry: resolve(__dirname, 'index.tsx'), // entry file of the library
+            entry: resolve(__dirname, 'src/index.tsx'), // entry file of the library
             name: 'hikuro', // name of the library
             fileName: (format) => `index.${format}.jsx`, // file name of the output bundle
         },
         rollupOptions: {
             // make sure to externalize dependencies
-            external: ['react'],
+            external: ['react', 'components', 'helpers', 'common'],
             output: {
                 // Provide global variables to use in the UMD build
                 // for externalized deps

@@ -20,6 +20,6 @@
         "ts-node": "^10.9.1"
     },
     "dependencies": {
-        "@hikuro": "^0.0.0"
+        "hikuro-ui": "^0.0.0"
     }
 }

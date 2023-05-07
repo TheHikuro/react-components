@@ -1,0 +1,26 @@
+import { AlertProvider, AlertElement } from 'hikuro-ui'
+import { ComponentStory } from "@storybook/react";
+import { ArgsTable, Canvas, Meta, Story } from "@storybook/addon-docs";
+
+<Meta
+  title="Hikuro/UI/Alert"
+  component={AlertElement}
+  parameters={{ viewMode: "docs", previewTabs: { canvas: { hidden: true } } }}
+/>
+
+export const Template = (args) => (
+
+  <AlertProvider>
+    <AlertElement {...args} />
+    <button>success</button>
+    <button>error</button>
+  </AlertProvider>
+);
+
+## Standard
+
+<Canvas>
+  <Story name="Standard">
+    <Template />
+  </Story>
+</Canvas>
